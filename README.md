@@ -9,3 +9,9 @@ The code optimization library for compressing, decompressing and cleaning up cod
 - Code cleanup for scripts and packages 
 - Multi language support
 - Package Structure Analysis
+
+## Release Schedule
+Amelio is currently pre-beta phase
+- Beta release : December 2018
+- Alpha Release : January 2019
+- Public Release : March 2019
