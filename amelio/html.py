@@ -141,3 +141,6 @@ def html_minify(html, comments=False):
     html = condense_html_whitespace(html)
     html = unquote_html_attributes(html)
     return html.strip()
+
+def html_unminify(html):
+    return

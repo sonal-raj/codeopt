@@ -12,7 +12,7 @@
 import re
 import itertools
 
-from .variables import EXTENDED_NAMED_COLORS, CSS_PROPS_TEXT
+from variables import EXTENDED_NAMED_COLORS, CSS_PROPS_TEXT
 
 
 __all__ = ('css_minify', 'condense_semicolons')
@@ -319,3 +319,6 @@ def css_minify(css, wrap=False, comments=False, sort=False, noprefix=False):
     css = add_encoding(css) if not noprefix else css
     css = restore_needed_space(css)
     return css.strip()
+
+def css_unminify(css):
+    return

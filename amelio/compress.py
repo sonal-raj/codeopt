@@ -11,7 +11,6 @@
 Minifier for the Web.
 """
 
-
 import atexit
 import os
 import sys
@@ -26,9 +25,9 @@ from multiprocessing import Pool, cpu_count
 from subprocess import getoutput
 from time import sleep
 
-from .css import css_minify
-from .html import html_minify
-from .js import js_minify
+from css import css_minify
+from html import html_minify
+from js import js_minify
 
 
 __all__ = ('process_multiple_files', 'prefixer_extensioner',
